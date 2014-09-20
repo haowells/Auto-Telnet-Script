@@ -5,6 +5,8 @@ import telnetlib
 from getpass import getpass
 ##from __future__ import print_function
 
+
+
 class AutoTelnet(object):
     def __init__(self, username, password, host_list, cmd_list, **kw):
         self.timeout = kw.get('timeout', 600)
